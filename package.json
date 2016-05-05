@@ -1,0 +1,15 @@
+{
+  "name": "www.agustincrespo.com",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "agu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node agu.js"
+  },
+  "author": "Agustín D. Crespo-Nazario",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
