@@ -23,6 +23,10 @@ h6 {
 
 .topnav {
     font-size: 14px; 
+    text-transform: uppercase;
+}
+.navbar-default {
+    background-color: rgba(248, 248, 248, 0.7);
 }
 
 .lead {
@@ -161,8 +165,8 @@ h6 {
 }
 
 footer {
-    padding: 1em 0;
-    background-color: #f8f8f8;
+    padding: 0.1em 0;
+    background-color: rgba(248, 248, 248, 0.2);
 }
 
 p.copyright {
