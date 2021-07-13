@@ -1,1 +1,1 @@
-web: node agu.js
+web: node main.js
