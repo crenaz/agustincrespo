@@ -1,1 +1,1 @@
-web: node --experimental-modules main.js
+web: node  main.js
