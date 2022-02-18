@@ -1,29 +1,23 @@
 {
-  "name": "agustincrespoVueSite",
+  "name": "agustincrespo",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "test": "jest"
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "bootstrap": "^4.6.1",
-    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.19.3",
-    "nuxt": "^2.15.8",
+    "nuxt": "^2.2.0",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "webpack": "^5.68.0"
   },
   "devDependencies": {
-    "@vue/test-utils": "^1.3.0",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^27.4.4",
-    "jest": "^27.4.4",
-    "vue-jest": "^3.0.4"
+    "@nuxt/types": "^0.4.1",
+    "@nuxt/typescript-build": "^0.3.6"
   }
 }
