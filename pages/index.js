@@ -11,8 +11,8 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p>It is concatenation of the first three letters of my two last names.</p>
         <p>
-	  (This is a sample website - based on{' '}
-          <a href="https://nextjs.org/learn">Next.js</a>.)
+	  (This is a sample website - like {' '}
+          <a href="/posts/first-post">this</a>.)
         </p>
       </section>
     </Layout>
