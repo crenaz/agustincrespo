@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-	  (This is a sample website - like {' '}
+	  (This is just for practice {' '}
           <a href="/posts/first-post">this</a>.)
         </p>
       </section>
