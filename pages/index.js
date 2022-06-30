@@ -10,8 +10,8 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-	  (This is just for practice {' '}
-          <a href="/posts/first-post">this</a>.)
+	  (This is just for {' '}
+          <a href="/posts/first-post">practice</a>.)
         </p>
       </section>
     </Layout>
