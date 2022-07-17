@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
 
 export default function Home() {
   return (
@@ -10,10 +10,15 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-	  (This is just for {' '}
-          <a href="/posts/first-post">practice</a>.)
+          (This is just for <a href="/posts/first-post">practice</a>.)
         </p>
       </section>
+      <footer>
+        <div class="oc">
+          <div class="wave"></div>
+          <div class="wave"></div>
+        </div>
+      </footer>
     </Layout>
-  )
+  );
 }
