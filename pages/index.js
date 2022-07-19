@@ -13,12 +13,7 @@ export default function Home() {
           (This is just for <a href="/posts/first-post">practice</a>.)
         </p>
       </section>
-      <footer>
-        <div class="oc">
-          <div class="wave"></div>
-          <div class="wave"></div>
-        </div>
-      </footer>
+      <footer></footer>
     </Layout>
   );
 }

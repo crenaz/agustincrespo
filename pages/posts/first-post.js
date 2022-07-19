@@ -22,12 +22,7 @@ export default function firstPost() {
           <a>Back to home</a>
         </Link>
       </h2>
-      <footer>
-        <div class="oc">
-          <div class="wave"></div>
-          <div class="wave"></div>
-        </div>
-      </footer>
+      <footer></footer>
     </Layout>
   );
 }
