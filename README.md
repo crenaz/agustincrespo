@@ -1,7 +1,6 @@
 ## The repo for my new site
-Just to practice with ~~Express Vue~~ React on NodeJS.
-...now incorporating Bootstrap.
+~~Just to practice with Express Vue React on NodeJS.~~
 
-# Sun 07/17/2022 03:16pm
+# Sat 10/29/2022 05:30pm
 
-So, it's been a while but let's see what we can do...
+Just gonna update this to reflect what I've doing. 
