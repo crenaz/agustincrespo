@@ -8,6 +8,7 @@ image: "/images/pic01.jpg"
 
 Frameworks are great, because they leverage the whole "standing on the shoulders of giants". I used to be surprised when another framework gets announced, and now I'm surprised if there isn't one every other day. Here's my list of all the frameworks I have ever come across:
 
+0. [Alpine.js](https://alpinejs.dev/)
 1. [Amber](https://amberframework.org/)
 2. [Angular](https://angular.io/) - and [Analog](https://analogjs.org/)
 3. [Astro!](https://astro.build/) - This website is made with Astro! Written in javascript, but doesn't ship any javascript by default. 
