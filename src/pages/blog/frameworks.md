@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Frameworks"
-summary: "Love me a good framework."
+summary: "A non-exhaustive list of Frameworks."
 pubDate: "2022-11-15"
 image: "/images/pic01.jpg"
 ---
