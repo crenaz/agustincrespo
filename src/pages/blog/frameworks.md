@@ -40,4 +40,4 @@ Frameworks are great, because they leverage the whole "standing on the shoulders
 29. Vue
 30. Vite
 31. Yew - Rust
-32. Yesod - Haskell
+32. [Yesod](https://www.yesodweb.com/) - According to [Wikipedia](https://en.wikipedia.org/wiki/Yesod) and the Jewish [Kabbalah]https://en.wikipedia.org/wiki/Kabbalah, Yesod is "the foundation upon which G-d has built the world." This is different, but it's still very good. It's written in [Haskell](https://www.haskell.org/), which has an asynchronous IO like Erlang. It produces fast compiled code in a constant-memory sort of way.  It has all the tools needed for developer productivity with type safety at compile time. 
