@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Thoughts about Wordpress"
-summary: "i have thoughts on Wordpress"
+summary: "I have thoughts on Wordpress"
 pubDate: "2022-11-22"
 image: "/images/pic06.jpg"
 ---
