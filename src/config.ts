@@ -7,6 +7,14 @@ export const NAV_ITEMS = [
     path: '/about',
     title: 'About',
   },
+  {
+    path: '/blog',
+    title: 'Blog',
+  },
+  {
+    path: '/tabs',
+    title: 'Links'
+  },
 ];
 
 export const SOCIAL_MEDIA_ITEMS = [
