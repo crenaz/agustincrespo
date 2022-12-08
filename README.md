@@ -5,7 +5,10 @@
 
 Just gonna update this to reflect what I've doing. 
 
-So, yeah.  I'll be using Astro.  Here's the original ReadMe file just for reference: 
+So, yeah.  I'll be using Astro.  And using an old html template.  
+To do: update to a more modern flat look design or go with neo brutalism as described by Gary Simon from design course. 
+
+  Here's the original ReadMe file just for reference: 
 
 
 # Welcome to [Astro](https://astro.build)
