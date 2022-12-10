@@ -7,7 +7,9 @@ pubDate: '2022-11-14'
 image: '/images/pic02.jpg'
 ---
 
-Most of the interpreted languages have CLIs but they are technically REPLs. But tools like Wrangler for CloudFlare and gh for GitHub. Not sure why this is here, but it is:
+Most of the interpreted languages have CLIs but they are technically REPLs. But tools like Wrangler for CloudFlare and gh for GitHub. 
+
+Here's how variable types should be declared in typescript:
 
 ```ts
 class Add {
@@ -26,3 +28,5 @@ class Add {
 let add = new Add(2, 3);
 add.Display();
 ```
+
+CLI tool for p5 sketches:  "p5 Manager" 
