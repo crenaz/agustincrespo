@@ -18,6 +18,7 @@ Frameworks are great, because they leverage the whole "standing on the shoulders
 7. [Bun.sh](https://bun.sh/) (this is actually a new javascript runtime, as opposed to a "normal" framework)
 8. [CakePHP](https://cakephp.org/)
 9. [Catalyst](http://catalyst.perl.org/) - [Perl](https://www.perl.org)
+9. [Darknet](https://pjreddie.com/darknet/) - A framework for creating  Open Source Neural Networks in C.
 10. [Django](https://www.djangoproject.com/) - "Django is a full-stack web framework for Python that is designed for rapid development and clean, pragmatic design. It provides a wide range of features and functionality out of the box, making it a good choice for many web development projects."
 11. [Dream](https://aantron.github.io/dream/) - [Ocaml](https://ocaml.org/)
 12. [Docusaurus](https://docusaurus.io/)
