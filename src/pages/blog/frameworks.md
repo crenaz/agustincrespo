@@ -35,6 +35,7 @@ Frameworks are great, because they leverage the whole "standing on the shoulders
 22. [htmx](https://htmx.org/)
 23. [Hugo](https://gohugo.io/)
 24. [Hydrogen](https://hydrogen.shopify.dev/)
+25. [Ionic](https://ionicframework.com/) - "The mobile SDK for the Web. An open source mobile UI toolkit for building modern, high quality cross-platform mobile apps from a single code base in React, Vue and/or Angular."
 25. [Jekyll](https://jekyllrb.com/)
 26. [Lapis](https://leafo.net/lapis/) - [Lua](https://www.lua.org/)
 27. [Laravel](https://laravel.com/)
