@@ -1,5 +1,6 @@
 ---
 import { GoogleFontsOptimizer } from 'astro-google-fonts-optimizer';
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 
 import IntroHeader from 'src/components/IntroHeader.astro';
 import Navigation from '../components/Navigation.astro';
@@ -19,6 +20,7 @@ const { title, intro } = Astro.props;
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <GoogleAnalytics />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
