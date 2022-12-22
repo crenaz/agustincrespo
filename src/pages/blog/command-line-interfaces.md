@@ -29,4 +29,17 @@ let add = new Add(2, 3);
 add.Display();
 ```
 
-CLI tool for p5 sketches:  "p5 Manager" 
+CLI tool for p5 sketches:  "p5 Manager"
+
+
+##Start Nginx services
+
+```
+sudo service nginx start
+
+sudo service nginx status
+
+sudo service nginx restart
+
+sudo service nginx stop
+```
