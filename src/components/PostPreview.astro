@@ -30,7 +30,7 @@ const { title, image, date, summary, alt, featured, link } = Astro.props;
   {!featured && <p set:html={summary} />}
   <ul class="actions special">
     <li>
-      <a href={link} class={featured ? 'button large' : 'button'}>Full Story</a>
+      <a href={link} class={featured ? 'button large' : 'button'}>README</a>
     </li>
   </ul>
 </article>
