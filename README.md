@@ -5,12 +5,14 @@
 
 Just gonna update this to reflect what I've doing. 
 
-So, yeah.  I'll be using Astro.  And using an old html template.  
+So, yeah; still be using Astro.  It's really good.  Don't really like using this old html template.  Going to change to TailwindCSS because it will enable me to follow a more modern approach to best practices.
+
+
 To do: update to a more modern flat look design or go with neo brutalism as described by Gary Simon from design course. 
 
 TO DO:
 
-  Switch to Next13 and React18
+  Switch(maybe) to Next13 and React18
   make same site in Angular
   make list of 'design styles' (ex. neomorphism, minimalism, brutalism)
 
