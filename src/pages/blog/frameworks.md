@@ -39,6 +39,7 @@ Frameworks are great, because they leverage the whole "standing on the shoulders
 25. [Jekyll](https://jekyllrb.com/)
 26. [Lapis](https://leafo.net/lapis/) - [Lua](https://www.lua.org/)
 27. [Laravel](https://laravel.com/)
+27. [Leptos](https://docs.rs/leptos/latest/leptos/#about-leptos)
 28. [Lucky](https://luckyframework.org/)
 29. [Marko](https://markojs.com/)
 30. [Magento](https://www.magento.com)
