@@ -4,7 +4,7 @@ title: 'Command Line Interfaces'
 summary:
   'Here is my attempt to list all the CLIs that I have come across.'
 pubDate: '2022-11-14'
-image: '/images/pic02.jpg'
+image: 'https://source.unsplash.com/random/800x500?2'
 ---
 
 Most of the interpreted languages have CLIs but they are technically REPLs. But tools like Wrangler for CloudFlare and gh for GitHub. 

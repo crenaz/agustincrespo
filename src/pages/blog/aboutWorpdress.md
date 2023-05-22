@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Thoughts about Wordpress"
 summary: "I have thoughts on Wordpress"
 pubDate: "2022-11-22"
-image: "/images/pic06.jpg"
+image: "https://source.unsplash.com/random/800x500?1"
 ---
 
 Seriously, I have go back to school for Software Engineering and the one of the best places in NYC for this is *a very famous school* (NAME REDACTED).  They have over ten years of experience shaping and building tech talent since 2012, which incidentally, is the year I moved to the city, myself.  So, you know whenever you are shopping for a product or a service, you do your due diligence, right?  Well, you can imagine my surprise when looking through their homepage's source code and I find this: 
