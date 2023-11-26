@@ -5,16 +5,16 @@ import PostPreview from '../components/PostPreview.astro';
 
 import { SITE } from '../config';
 
-const allPosts = await Astro.glob('./blog/*.md');
+/* const allPosts = await Astro.glob('./blog/*.md');
 
 allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate));
 
-const featured = allPosts.shift();
+const featured = allPosts.shift(); */
 ---
 
 <Layout title={SITE.title} intro>
   <div id="main">
-    <!-- Featured Post -->
+    <!-- Featured Post
     <PostPreview
       title={featured?.frontmatter.title || ''}
       image={featured?.frontmatter.image || ''}
@@ -22,9 +22,9 @@ const featured = allPosts.shift();
       summary={featured?.frontmatter.summary}
       link={featured?.url || ''}
       featured
-    />
+    /> -->
 
-    <!-- Posts -->
+    <!-- Posts
     <section class="posts">
       {
         allPosts.map((p) => (
@@ -37,7 +37,7 @@ const featured = allPosts.shift();
           />
         ))
       }
-    </section>
+    </section> -->
 
     <!-- <Pagination /> -->
   </div>
