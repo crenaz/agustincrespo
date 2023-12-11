@@ -1,7 +1,7 @@
 {
-  "name": "agustincrespo.com",
-  "version": "1.0.0",
-  "private": false,
+  "name": "satellite-star",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,18 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^3.1.2",
-    "@astrojs/mdx": "^0.11.6",
-    "@astrojs/rss": "^1.2.1",
-    "@astrojs/sitemap": "^1.4.0",
-    "astro": "^1.9.2",
-    "astro-google-fonts-optimizer": "^0.2.2",
-    "date-fns": "^2.30.0"
-  },
-  "devDependencies": {
-    "@astrojs/partytown": "^1.2.3",
-    "prettier-plugin-astro": "^0.5.5",
-    "rollup": "^3.29.4",
-    "sass": "^1.69.5"
+    "astro": "^2.10.15"
   }
 }
