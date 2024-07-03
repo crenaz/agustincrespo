@@ -8,12 +8,6 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
-
-// Page section components
-import Skills from '../components/Skills.astro';
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 ---
 
 <BaseLayout>
@@ -36,15 +30,9 @@ import Skills from '../components/Skills.astro';
 						<Pill><Icon icon="truck" size="1.33em" /> Field Tech</Pill>
 					</div>
 				</Hero>
-
 			</header>
-
-			<Skills />
 		</div>
 
-		<main class="wrapper stack gap-20 lg:gap-48">
-
-		</main>
 
 	</div>
 </BaseLayout>
@@ -169,25 +157,4 @@ import Skills from '../components/Skills.astro';
 		}
 	}
 
-	/* ====================================================== */
-
-	.mention-card {
-		display: flex;
-		height: 7rem;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		border: 1px solid var(--gray-800);
-		border-radius: 1.5rem;
-		color: var(--gray-300);
-		background: var(--gradient-subtle);
-		box-shadow: var(--shadow-sm);
-	}
-
-	@media (min-width: 50em) {
-		.mention-card {
-			border-radius: 1.5rem;
-			height: 9.5rem;
-		}
-	}
 </style>
