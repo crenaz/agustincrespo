@@ -2,18 +2,6 @@
 import Icon, { Props as IconProps } from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
 
-/** Main menu items */
-const textLinks: { label: string; href: string }[] = [
-	{ label: 'Home', href: '/' },
-];
-
-/** Icon links to social media — edit these with links to your profiles! */
-const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
-	{ label: 'Linkedin', href: 'https://linkedin.com/me', icon: 'linkedin-logo' },
-	{ label: 'Instagram', href: 'https://instagram.com/me', icon: 'instagram-logo' },
-	{ label: 'GitHub', href: 'https://github.com/me', icon: 'github-logo' },
-	{ label: 'YouTube', href: 'https://www.youtube.com/@me/', icon: 'youtube-logo' },
-];
 ---
 
 <nav>
@@ -32,44 +20,9 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 		</menu-button>
 	</div>
 	<div id="menu-content">
-		<ul class="nav-items">
-			{
-				textLinks.map(({ label, href }) => (
-					<li>
-						<a
-							aria-current={Astro.url.pathname === href}
-							class:list={[
-								'link',
-								{
-									active:
-										Astro.url.pathname === href ||
-										(href !== '/' && Astro.url.pathname.startsWith(href)),
-								},
-							]}
-							href={href}
-						>
-							{label}
-						</a>
-					</li>
-				))
-			}
-		</ul>
-		<div class="menu-footer">
-			<div class="socials">
-				{
-					iconLinks.map(({ href, icon, label }) => (
-						<a href={href} class="social">
-							<span class="sr-only">{label}</span>
-							<Icon icon={icon} />
-						</a>
-					))
-				}
-			</div>
-
 			<div class="theme-toggle">
 				<ThemeToggle />
 			</div>
-		</div>
 	</div>
 </nav>
 
@@ -191,39 +144,6 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 
 	.link.active {
 		color: var(--gray-0);
-	}
-
-	.menu-footer {
-		--icon-size: var(--text-xl);
-		--icon-padding: 0.5rem;
-
-		display: flex;
-		justify-content: space-between;
-		gap: 0.75rem;
-		padding: 1.5rem 2rem 1.5rem 1.5rem;
-		background-color: var(--gray-999);
-		border-radius: 0 0 0.75rem 0.75rem;
-		box-shadow: var(--shadow-lg);
-	}
-
-	.socials {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.625rem;
-		font-size: var(--icon-size);
-	}
-
-	.social {
-		display: flex;
-		padding: var(--icon-padding);
-		text-decoration: none;
-		color: var(--accent-dark);
-		transition: color var(--theme-transition);
-	}
-
-	.social:hover,
-	.social:focus {
-		color: var(--accent-text-over);
 	}
 
 	.theme-toggle {
