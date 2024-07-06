@@ -1,16 +1,14 @@
 {
-  "name": "agustincrespo.com",
-  "type": "module",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "astro": "^4.11.3"
+    "framer-motion": "latest",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
