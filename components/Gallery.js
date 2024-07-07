@@ -74,7 +74,7 @@ const Thumbnail = ({ id, i }) => (
 
 const Gallery = () => (
   <>
-    <h1>Agustin Daniel Crespo-Nazario</h1>
+    <h1>Agustin Crespo-Nazario</h1>
     <div className="gallery">
       <motion.div
         className="thumbnails"
