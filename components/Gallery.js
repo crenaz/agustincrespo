@@ -41,7 +41,7 @@ const Thumbnail = ({ id, i }) => (
         >
           <motion.img
             src={`https://images.unsplash.com/${id}?auto=format&fit=crop&w=1500`}
-            alt="The Barbican"
+            alt="similar to my own pictures"
             variants={imageVariants}
             transition={transition}
           />
