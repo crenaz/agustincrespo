@@ -1,12 +1,6 @@
 ## The repo for my new site
 ~~Just to practice with Express Vue React on NodeJS.~~
-
-# Mon 12/11/2023 05:58pm
-
-Just gonna update this to reflect what I've doing. 
-
-So, yeah; still using Astro.  It's really good.  Don't really like using this old html template.  Going to change to TailwindCSS because it will enable me to follow a more modern approach to best practices.
+No longer using Astro for this project. It's now built upon Next.js with TailwindCSS and Framer-Motion to handle the animations. 
 
 
-
-*about to switch this to something else*
+### Wed 11/12/2025 10:15am
