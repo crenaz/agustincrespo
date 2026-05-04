@@ -33,12 +33,9 @@ const Thumbnail = ({ id, i }) => (
         variants={frameVariants}
         transition={transition}
       >
-        <Link
-          href="/image/[index]"
-          as={`/image/${i}`}
-          scroll={false}
-          legacyBehavior
-        >
+        <Link href="/image/[index]" as={`/image/${i}`} scroll={false}>
+          {/* @next-codemod-error This Link previously used the now removed `legacyBehavior` prop, and has a child that might not be an anchor. The codemod bailed out of lifting the child props to the Link. Check that the child component does not render an anchor, and potentially move the props manually to Link. */
+          }
           <motion.img
             src={`https://images.unsplash.com/${id}?auto=format&fit=crop&w=1500`}
             alt="similar to my own pictures"
