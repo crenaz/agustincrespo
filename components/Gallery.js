@@ -24,7 +24,7 @@ const imageVariants = {
   hover: { scale: 1.1 },
 };
 
-const Thumbnail = ({ id, i }) => (
+const Thumbnail = ({ id, slug }) => (
   <>
     <motion.div className="thumbnail" variants={thumbnailVariants}>
       <motion.div
@@ -33,7 +33,7 @@ const Thumbnail = ({ id, i }) => (
         variants={frameVariants}
         transition={transition}
       >
-        <Link href="/image/[index]" as={`/image/${i}`} scroll={false}>
+        <Link href="/photo/[slug]" as={`/photo/${slug}`} scroll={false}>
           {/* @next-codemod-error This Link previously used the now removed `legacyBehavior` prop, and has a child that might not be an anchor. The codemod bailed out of lifting the child props to the Link. Check that the child component does not render an anchor, and potentially move the props manually to Link. */
           }
           <motion.img
@@ -80,8 +80,8 @@ const Gallery = () => (
         exit="exit"
         variants={{ exit: { transition: { staggerChildren: 0.1 } } }}
       >
-        {images.map((id, i) => (
-          <Thumbnail key={id} id={id} i={i} />
+        {images.map((image) => (
+          <Thumbnail key={image.unsplashId} id={image.unsplashId} slug={image.slug} />
         ))}
       </motion.div>
     </div>

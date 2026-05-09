@@ -3,7 +3,7 @@ import SingleImage from "../../components/SingleImage";
 import { images } from "../../constants";
 
 const Page = ({ image }) => {
-  return <SingleImage iamge={image} />;
+  return <SingleImage image={image} />;
 };
 
 export async function getStaticProps({ params }) {
