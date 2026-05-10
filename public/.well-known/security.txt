@@ -1,0 +1,5 @@
+Contact: mailto:security@agustincrespo.com
+Expires: 2027-05-10T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://agustincrespo.com/.well-known/security.txt
+Policy: https://agustincrespo.com/security-policy
